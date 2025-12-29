@@ -1,0 +1,23 @@
+project-os/
+│
+├── runbooks/
+│   ├── New-ProjectContainer.ps1
+│   ├── Process-ProjectEmail.ps1
+│   ├── Classify-And-RouteFiles.ps1
+│
+├── prompts/
+│   ├── email_intake.json
+│   ├── action_extraction.json
+│
+├── schemas/
+│   ├── Project_Profile.schema.json
+│   ├── Planner_Task.schema.json
+│
+├── infra/
+│   ├── automation-account.ps1
+│   ├── graph-permissions.ps1
+│
+├── power-automate/
+│   ├── intake-flow.json
+│
+└── README.md
